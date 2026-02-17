@@ -1,13 +1,92 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cources</title>
+    <title>Courses - FutureMinds Coaching</title>
+    <link rel="stylesheet" href="/Css/Cstyle.css">
 </head>
 <body>
-    <div>
 
-        <p>This is the Courses page.</p>
+    <header class="header">
+        <div class="logo">
+        <img src="/IMG/Logo.png" alt="FutureMinds Coaching Logo" >
+        <h1>FutureMinds Coaching</h1>
+     </div>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Cources.html">Courses</a>
+            <a href="addmisson.html">Admission</a>
+        </nav>
+       
+    </header>
+
+    <section class="courses-section">
+        <h2 class="section-title">Our Courses</h2>
+
+        <!-- TABLE -->
+        <table class="course-table">
+            <tr>
+    <th>Program Name</th>
+    <th>Duration</th>
+    <th>Fees</th>
+</tr>
+<tr>
+    <td>Full Stack Web Development</td>
+    <td>6 Months</td>
+    <td>₹45,000</td>
+</tr>
+<tr>
+    <td>Java Programming Mastery</td>
+    <td>4 Months</td>
+    <td>₹30,000</td>
+</tr>
+<tr>
+    <td>Data Science & Python</td>
+    <td>8 Months</td>
+    <td>₹55,000</td>
+</tr>
+<tr>
+    <td>Cyber Security Basics</td>
+    <td>3 Months</td>
+    <td>₹25,000</td>
+</tr>
+
+        </table>
+    </section>
+
+    <!-- COURSE CARDS -->
+    <section class="course-cards">
+        <div class="card">
+            <h3>Full Stack Web Development</h3>
+            <p>Duration: 6 Months</p>
+            <p>Fees: ₹45,000</p>
+            <button>Enroll Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Java Programming Mastery</h3>
+            <p>Duration: 4 Months</p>
+            <p>Fees: ₹30,000</p>
+            <button>Enroll Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Data Science & Python</h3>
+            <p>Duration: 8 Months</p>
+            <p>Fees: ₹55,000</p>
+            <button>Enroll Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Cyber Security Basics</h3>
+            <p>Duration: 3 Months</p>
+            <p>Fees: ₹25,000</p>
+            <button>Enroll Now</button>
+        </div>
+    </section>
+
+    <div class="back-home">
+        <a href="/HTML/Home.html">← Back to Home</a>
     </div>
+
 </body>
 </html>
