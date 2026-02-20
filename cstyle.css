@@ -26,7 +26,7 @@
 }
 
 .logo h1 {
-    color: rgb(206, 109, 19);
+    color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
 }
 
@@ -35,7 +35,7 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
     transition: 0.3s;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 nav a:hover {
